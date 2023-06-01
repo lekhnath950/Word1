@@ -1,0 +1,35 @@
+.App {
+  margin: 30px;
+}
+
+.container{
+  border: 1px solid black;
+  padding: 20px;
+  border: 1px solid grey;
+  width: max-content;
+}
+
+.container h1{
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 1px 1px 2px grey;
+  text-transform: uppercase;
+  width: max-content;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.container form{
+  margin-top: 10px;
+}
+
+.container form textarea{
+  height: 150px;
+  width: 500px;
+  resize: none;
+  border-radius: 10px;
+  padding: 5px;
+}
